@@ -18,4 +18,9 @@ void insertion_sort(vector_t*, uint32_t);
 //cuesta O(n) y son n elementos. Trabaja in-place.
 void selection_sort(vector_t*);
 
+//Algoritmo recursivo que ordena sus dos mitades y luego las fusiona. No es
+//in-place.
+
+void merge_sort(vector_t*);
+
 #endif
